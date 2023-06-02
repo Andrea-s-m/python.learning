@@ -1,0 +1,7 @@
+#criar lista com numeros de 1 a 200
+numeros = list(range(1,101))
+#percorre a lista e verifica se o numero é par e divisível por 4
+for numero in numeros:
+    if numero % 2 == 0 and numero % 4 == 0:
+        print(numero)
+
