@@ -1,0 +1,19 @@
+#fazendo uma calculadora simples em python
+print("bem vindo(a) a calculadora")
+numero1 = float(input("insira o primeiro numero: "))
+numero2 = float(input("insira o segundo numero: "))
+operação = input("selecione uma operação (+, -, *, /): ")
+if operação == "+":
+    resultado = numero1 + numero2
+    print(resultado)
+elif operação == "-":
+    resultado = numero1 - numero2
+    print(resultado)
+elif operação == "*":
+    resultado = numero1 * numero2
+    print(resultado)
+elif operação == "/":
+    resultado = numero1 / numero2
+    print(resultado)
+else:
+    print("operação inválida")
